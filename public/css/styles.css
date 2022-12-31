@@ -464,23 +464,32 @@ body.dark-theme {
   right: calc(50% - 2rem);
 }
 
-/*=============== BRANDS ===============*/
-.brand__container {
+/*=============== CLIENTS ===============*/
+.client {
+  background-color: var(--bg-color-light);
+  padding-bottom: 2.5rem;
+}
+
+.client__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
   padding-bottom: 1.5rem;
   column-gap: 1.25rem;
 }
 
-.brand__img {
+.client__img {
   width: 120px;
 }
 
-.brand__img:nth-child(even) {
+.client__img:nth-child(even) {
   margin-top: 2rem;
 }
 
 /*=============== CONTACT ===============*/
+.contact {
+  padding-bottom: 4rem;
+}
+
 .contact__container {
   row-gap: 3rem;
 }
@@ -514,7 +523,7 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--bg-color-light);
+  background-color: var(--bg-color);
 }
 
 .footer__container {
@@ -693,7 +702,7 @@ body.dark-theme {
     width: 230px;
   }
 
-  .brand__container {
+  .client__container {
     grid-template-columns: repeat(2, 100px);
     row-gap: 0.5rem;
   }
@@ -724,7 +733,11 @@ body.dark-theme {
     grid-template-columns: repeat(2, max-content);
   }
 
-  .brand__container {
+  .client {
+    padding-bottom: 2.5rem;
+  }
+
+  .client__container {
     grid-template-columns: repeat(4, max-content);
   }
 
@@ -800,6 +813,27 @@ body.dark-theme {
 
   .portfolios__container {
     width: 954px;
+  }
+
+  .portfolios__card {
+    width: 400px;
+  }
+
+  .portfolios__title {
+    text-align: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    margin-bottom: 4rem;
+  }
+
+  .client {
+    padding-bottom: 2.5rem;
+  }
+
+  .contact {
+    padding-bottom: 4rem;
   }
 
   .footer__content {
@@ -881,11 +915,11 @@ body.dark-theme {
     padding-bottom: 7rem;
   }
 
-  .brand__container {
+  .client__container {
     column-gap: 5.5rem;
   }
 
-  .brand__img {
+  .client__img {
     width: 140px;
   }
 

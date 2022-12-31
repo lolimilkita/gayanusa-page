@@ -21,7 +21,7 @@ let swiperProducts = new Swiper(".portfolios__container", {
 
   breakpoints: {
     1024: {
-      spaceBetween: 72,
+      spaceBetween: 120,
     },
   },
 });
@@ -105,7 +105,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data, .portfolios__container, .footer__container, .footer__info`);
 sr.reveal(`.home__hero`, { delay: 600, origin: "bottom" });
-sr.reveal(`.about__data, .brand__img, .contact__form`, { interval: 100 });
+sr.reveal(`.about__data, .client__img, .contact__form`, { interval: 100 });
 sr.reveal(`.about__img, .contact__map`, { origin: "left" });
 sr.reveal(`.service__explore:nth-child(1)`, { origin: "right" });
 sr.reveal(`.service__explore:nth-child(2)`, { origin: "left" });
