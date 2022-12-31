@@ -6,8 +6,8 @@ const scrollHeader = () => {
 };
 window.addEventListener("scroll", scrollHeader);
 
-/*=============== SWIPER PRODUCTS ===============*/
-let swiperProducts = new Swiper(".products__container", {
+/*=============== SWIPER PORTFOLIOS ===============*/
+let swiperProducts = new Swiper(".portfolios__container", {
   spaceBetween: 32,
   grabCursor: true,
   centeredSlides: true,
@@ -101,11 +101,11 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 400,
-  reset: true,
 });
 
-sr.reveal(`.home__data, .products__container, .footer__container, .footer__info`);
-sr.reveal(`.home__images`, { delay: 600, origin: "bottom" });
-sr.reveal(`.new__card, .brand__img`, { interval: 100 });
-sr.reveal(`.collection__explore:nth-child(1)`, { origin: "right" });
-sr.reveal(`.collection__explore:nth-child(2)`, { origin: "left" });
+sr.reveal(`.home__data, .portfolios__container, .footer__container, .footer__info`);
+sr.reveal(`.home__hero`, { delay: 600, origin: "bottom" });
+sr.reveal(`.about__data, .brand__img, .contact__form`, { interval: 100 });
+sr.reveal(`.about__img, .contact__map`, { origin: "left" });
+sr.reveal(`.service__explore:nth-child(1)`, { origin: "right" });
+sr.reveal(`.service__explore:nth-child(2)`, { origin: "left" });
