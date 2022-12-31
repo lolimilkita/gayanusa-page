@@ -321,8 +321,7 @@ body.dark-theme {
 }
 
 .about__img {
-  width: 200px;
-  border-radius: 0.5rem;
+  width: 400px;
   justify-self: center;
   align-self: center;
 }
@@ -450,6 +449,10 @@ body.dark-theme {
 .collection__data-four {
   align-self: flex-end;
   margin-bottom: 2.5rem;
+}
+
+.collection__detail {
+  padding: 1rem;
 }
 
 /*=============== PRODUCTS ===============*/
