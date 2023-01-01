@@ -1,5 +1,5 @@
 # gayanusa-page
 Gaya Nusa Technology Landing Page
 
-[Live Website](https://gayanusa.my.id)
+[Live Website](http://gayanusa.my.id)
 
