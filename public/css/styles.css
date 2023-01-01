@@ -6,16 +6,35 @@
 :root {
   --header-height: 3.5rem;
 
+  /*========== Color From Figma ==========*/
+  --dark-900: #001217;
+  --dark-800: #00181b;
+  --dark-700: #012122;
+  --dark-600: #022926;
+  --dark-400: #26826b;
+  --dark-300: #54c09b;
+  --dark-200: #92eac3;
+  --dark-100: #c6f4dc;
+
+  --neutral-900: #121212;
+  --neutral-800: #2a2a2a;
+  --neutral-700: #414141;
+  --neutral-600: #595959;
+  --neutral-500: #717171;
+  --neutral-400: #aaaaaa;
+  --neutral-300: #d0d0d0;
+  --neutral-200: #e7e7e7;
+  --neutral-100: #f0f0f0;
+
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --bg-color: hsl(220, 18%, 78%);
-  --bg-color-light: hsl(220, 18%, 86%);
-  --title-color: hsl(220, 8%, 10%);
-  --text-color: hsl(220, 4%, 32%);
-  --text-color-light: hsl(220, 4%, 55%);
-  --input-color: hsl(220, 54%, 92%);
-  --body-color: hsl(220, 18%, 99%);
-  --container-color: hsl(220, 18%, 97%);
+  --bg-color: var(--dark-300);
+  --bg-color-light: var(--dark-200);
+  --title-color: var(--neutral-900);
+  --text-color: var(--neutral-600);
+  --text-color-light: var(--neutral-500);
+  --input-color: var(--dark-200);
+  --body-color: var(--dark-100);
+  --container-color: var(--dark-100);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -93,14 +112,13 @@ img {
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --bg-color: hsl(220, 18%, 13%);
-  --bg-color-light: hsl(220, 18%, 23%);
-  --title-color: hsl(220, 8%, 95%);
-  --text-color: hsl(220, 8%, 65%);
-  --input-color: hsl(220, 20%, 15%);
-  --body-color: hsl(220, 18%, 18%);
-  --container-color: hsl(220, 18%, 21%);
+  --bg-color: var(--dark-900);
+  --bg-color-light: var(--dark-800);
+  --title-color: var(--neutral-100);
+  --text-color: var(--neutral-200);
+  --input-color: var(--dark-800);
+  --body-color: var(--dark-700);
+  --container-color: var(--dark-600);
 }
 
 /*========== Button Dark/Light ==========*/
