@@ -74,6 +74,8 @@ const iconTheme = "ri-sun-line";
 const selectedTheme = localStorage.getItem("selected-theme");
 const selectedIcon = localStorage.getItem("selected-icon");
 
+console.log(selectedIcon);
+
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = () => (document.body.classList.contains(darkTheme) ? "dark" : "light");
 const getCurrentIcon = () => (themeButton.classList.contains(iconTheme) ? "ri-moon-clear-line" : "ri-sun-line");
