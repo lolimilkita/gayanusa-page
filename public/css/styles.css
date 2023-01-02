@@ -27,14 +27,14 @@
   --neutral-100: #f0f0f0;
 
   /*========== Colors ==========*/
-  --bg-color: var(--dark-300);
-  --bg-color-light: var(--dark-200);
+  --bg-color: var(--dark-200);
+  --bg-color-light: var(--dark-100);
   --title-color: var(--neutral-900);
   --text-color: var(--neutral-600);
   --text-color-light: var(--neutral-500);
-  --input-color: var(--dark-200);
-  --body-color: var(--dark-100);
-  --container-color: var(--dark-100);
+  --input-color: var(--dark-100);
+  --body-color: var(--neutral-100);
+  --container-color: var(--neutral-100);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
